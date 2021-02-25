@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
-import { useForm } from 'react-hook-form';
+import { useForm, Controller } from 'react-hook-form';
 import { Redirect } from 'react-router-dom';
 import md5 from 'md5';
 import validtickets from './data/validtickets';
+import InputMask from "react-input-mask";
 
 function TicketForm() {
-  const { register, handleSubmit, errors } = useForm();
+  const { register, handleSubmit, errors, control } = useForm();
   const [hashToRender, setHashToRender] = useState("");
 
   if (hashToRender) {
@@ -14,7 +15,8 @@ function TicketForm() {
 
   const onSubmit = data => {
     console.log(data);
-    const validator = `${data.phone}${data.token.toUpperCase()}`;
+    const phone = data.phone.replace(/\D/g,'');
+    const validator = `${phone}${data.token.toUpperCase()}`;
     console.log(`Validator: ${validator}`);
     const hash = md5(validator).toUpperCase();
     console.log(`Hash: ${hash}`);
@@ -34,7 +36,14 @@ function TicketForm() {
       <h1>Ingresso</h1>
       <p>Para acessar seu ingresso, insira o número de telefone que você usou para confirmar presença</p>
       <div className="container"> 
-        <input type="tel" placeholder="Seu telefone (com DDD)" name="phone" aria-invalid={errors.phone ? "true" : "false"} ref={register({required: true, minLength:11, maxLength: 11})} />
+        <Controller as={InputMask}
+          control={control}
+          mask="(99)99999-9999"
+          name="phone"
+          placeholder="Seu telefone (com DDD)" 
+          aria-invalid={errors.phone ? "true" : "false"}
+          defaultValue={""}
+        />
         {errors.phone && errors.phone.type === "required" && (
           <span role="alert">O número de telefone é obrigatório</span>
         )}

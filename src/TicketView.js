@@ -34,7 +34,7 @@ const styles = {
 
 function TicketView() {
   const { hash } = useParams();
-  const urlTicket = `https://gilliardmacedo.github.io/hej-casamento/validate/${hash}`;
+  const urlTicket = `https://gilliardmacedo.github.io/hej-casamento/#/validate/${hash}`;
   const ticketData = invitees[hash];
   return (
     <div style={styles.mainStyle}>

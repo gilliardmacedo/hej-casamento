@@ -41,15 +41,8 @@ function TicketForm() {
           mask="(99)99999-9999"
           name="phone"
           placeholder="Seu telefone (com DDD)" 
-          aria-invalid={errors.phone ? "true" : "false"}
           defaultValue={""}
         />
-        {errors.phone && errors.phone.type === "required" && (
-          <span role="alert">O número de telefone é obrigatório</span>
-        )}
-        {errors.phone && errors.phone.type === "minLength" && (
-          <span role="alert">Insira o número com DDD. Ex.: 61988884444</span>
-        )}
       </div>
       <div className="container"> 
         <input type="text" placeholder="Senha que você recebeu por mensagem" name="token" aria-invalid={errors.token ? "true" : "false"} ref={register({required: true, minLength:6, maxLength: 6})} />

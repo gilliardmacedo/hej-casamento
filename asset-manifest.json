@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/hej-casamento/static/css/main.642a7c9c.chunk.css",
-    "main.js": "/hej-casamento/static/js/main.a1b351c9.chunk.js",
-    "main.js.map": "/hej-casamento/static/js/main.a1b351c9.chunk.js.map",
+    "main.js": "/hej-casamento/static/js/main.8a8ecce8.chunk.js",
+    "main.js.map": "/hej-casamento/static/js/main.8a8ecce8.chunk.js.map",
     "runtime-main.js": "/hej-casamento/static/js/runtime-main.48b8106d.js",
     "runtime-main.js.map": "/hej-casamento/static/js/runtime-main.48b8106d.js.map",
-    "static/js/2.b3dc93ea.chunk.js": "/hej-casamento/static/js/2.b3dc93ea.chunk.js",
-    "static/js/2.b3dc93ea.chunk.js.map": "/hej-casamento/static/js/2.b3dc93ea.chunk.js.map",
+    "static/js/2.00551eb4.chunk.js": "/hej-casamento/static/js/2.00551eb4.chunk.js",
+    "static/js/2.00551eb4.chunk.js.map": "/hej-casamento/static/js/2.00551eb4.chunk.js.map",
     "index.html": "/hej-casamento/index.html",
     "static/css/main.642a7c9c.chunk.css.map": "/hej-casamento/static/css/main.642a7c9c.chunk.css.map",
-    "static/js/2.b3dc93ea.chunk.js.LICENSE.txt": "/hej-casamento/static/js/2.b3dc93ea.chunk.js.LICENSE.txt"
+    "static/js/2.00551eb4.chunk.js.LICENSE.txt": "/hej-casamento/static/js/2.00551eb4.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.48b8106d.js",
-    "static/js/2.b3dc93ea.chunk.js",
+    "static/js/2.00551eb4.chunk.js",
     "static/css/main.642a7c9c.chunk.css",
-    "static/js/main.a1b351c9.chunk.js"
+    "static/js/main.8a8ecce8.chunk.js"
   ]
 }

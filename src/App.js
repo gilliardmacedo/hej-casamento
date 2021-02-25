@@ -8,7 +8,7 @@ import NotFound from './NotFound';
 function App() {
   return (
     <div>
-      <Switch>
+      <Switch >
         <Route exact path="/">
           <TicketForm />
         </Route>

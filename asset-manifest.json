@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/hej-casamento/static/css/main.642a7c9c.chunk.css",
-    "main.js": "/hej-casamento/static/js/main.bc12ce0f.chunk.js",
-    "main.js.map": "/hej-casamento/static/js/main.bc12ce0f.chunk.js.map",
+    "main.js": "/hej-casamento/static/js/main.f4e9eb27.chunk.js",
+    "main.js.map": "/hej-casamento/static/js/main.f4e9eb27.chunk.js.map",
     "runtime-main.js": "/hej-casamento/static/js/runtime-main.48b8106d.js",
     "runtime-main.js.map": "/hej-casamento/static/js/runtime-main.48b8106d.js.map",
     "static/js/2.b9481b7a.chunk.js": "/hej-casamento/static/js/2.b9481b7a.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.48b8106d.js",
     "static/js/2.b9481b7a.chunk.js",
     "static/css/main.642a7c9c.chunk.css",
-    "static/js/main.bc12ce0f.chunk.js"
+    "static/js/main.f4e9eb27.chunk.js"
   ]
 }

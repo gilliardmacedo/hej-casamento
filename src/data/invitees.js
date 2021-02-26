@@ -48,10 +48,10 @@ const invitees = {
     main : "Eurilene Silva",
     others : ["Ricardo Felipe"]
   }, // Eurilene Silva
-  "C072543EE044ECA726B4FE0047735334" : {
-    main : "Leandro",
-    others : []
-  }, // Leandro
+  // "C072543EE044ECA726B4FE0047735334" : {
+  //   main : "Leandro",
+  //   others : []
+  // }, // Leandro
   "5F0C7688DDE47ABE1F85A2B6003C2073" : {
     main : "Wilton Ferreira",
     others : ["Luciene Amorim", "Murilo Amorim"]
@@ -320,6 +320,10 @@ const invitees = {
     main : "Gabriel Damiano",
     others : ["Bárbara Damazio"]
   }, // Gabriel Damiano 
+  "815DB4CEC1AB1F4BD2C25778A23AC376" : {
+    main : "Douglas Paulino",
+    others : []
+  }, // Douglas Paulino
 }
 
 export default invitees;

@@ -91,7 +91,7 @@ function TicketValidation() {
   const [lastTimeUsed, setLastTimeUsed] = useState(null);
 
   useEffect(() => {
-    if (config.useDatabase && !ready && !lastTimeUsed) {
+    if (config.useDatabase) {
       ticketValidationService.lastTimeUsed(hash).then(data => {
         setLastTimeUsed(data);
         setReady(true);

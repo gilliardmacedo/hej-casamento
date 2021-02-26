@@ -79,6 +79,7 @@ const validtickets = [
   "D32033FBAF024B06CC55FA41BBB55E90", // Junia Cardoso 
   "C57A6647DBB6348402C1356B91819517", // Rodrigo Hagstrom
   "E41CD454ED06F3A5AF5FC43C8168ED0D", // Gabriel Damiano 
+  "815DB4CEC1AB1F4BD2C25778A23AC376", // Douglas Paulino
 ];
 
 export default validtickets;

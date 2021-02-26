@@ -97,7 +97,7 @@ function TicketValidation() {
         setReady(true);
       });
     }
-  });
+  }, [ready, lastTimeUsed, hash]);
 
   if (!config.useDatabase){
     return sucess(ticketData);

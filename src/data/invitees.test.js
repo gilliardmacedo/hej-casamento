@@ -9,5 +9,5 @@ test('Number of invitees', () => {
     count += invitee.others.length;
   }
 
-  expect(count).toBe(163);
+  expect(count).toBe(164);
 });

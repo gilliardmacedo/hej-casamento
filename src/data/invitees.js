@@ -324,6 +324,10 @@ const invitees = {
     main : "Douglas Paulino",
     others : []
   }, // Douglas Paulino
+  "48ED18568F54BE6F4121BDA01A37BD1A" : {
+    main : "Lisley Barros",
+    others : []
+  }, // Lisley Barros
 }
 
 export default invitees;
